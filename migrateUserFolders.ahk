@@ -56,7 +56,7 @@ MigrateFolders() {
     userName := parts2
 
     ; Создаём путь к новой папке
-    userFolderPath := SelectedDrive . "\User folders\" . userName . "\"
+    userFolderPath := SelectedDrive . "\UsersFolders\" . userName . "\"
 
     ; Открываем Этот компьютер
     Run explorer.exe shell:MyComputerFolder
